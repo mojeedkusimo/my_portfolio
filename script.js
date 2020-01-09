@@ -14,7 +14,7 @@ $(function (){
     // add Bootstrap's scrollspy
     $('body').scrollspy({
         target: '.navbar',
-        offset: 150
+        offset: 200
     });
 
     // smooth scrolling
