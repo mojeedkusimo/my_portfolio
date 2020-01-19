@@ -28,8 +28,4 @@ $(function (){
     // initializing wow.js
     new WOW().init();
 
-    //initializing nanogallery
-    $(document).ready(function () {
-        $("#projects").nanoGallery();
-    });
 }); 

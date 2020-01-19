@@ -178,14 +178,27 @@ background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
+#works {
+    /* background-color: gray; */
+}
+
 #projects {
     width: 100%;
 }
 
 .activity-image {
-    height: 250px;
+    height: 350px;
     width: 250px;
-    padding-bottom: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.activity-image:hover {
+    height: 380px;
+    width: 300px;
+    border: 10px solid gray;
 }
 
 .pb-6 {
