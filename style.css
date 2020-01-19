@@ -191,14 +191,14 @@ background-repeat: no-repeat;
     width: 250px;
     border-radius: 20px;
     margin-bottom: 20px;
+    opacity: 0.7;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
 }
 
 .activity-image:hover {
-    height: 380px;
-    width: 300px;
-    border: 10px solid gray;
+    opacity: 1.0;
+    box-shadow: black 0px 5px 15px 5px;
 }
 
 .pb-6 {
